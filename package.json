@@ -1,0 +1,24 @@
+{
+  "name": "koishi-plugin-wolfram-alpha",
+  "version": "2.0.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "author": "Shigma <shigma10826@gmail.com>",
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.2.0"
+  },
+  "dependencies": {
+    "xml-js": "^1.6.11"
+  }
+}
