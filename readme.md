@@ -2,7 +2,7 @@
  
 [![npm](https://img.shields.io/npm/v/koishi-plugin-wolfram-alpha?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-wolfram-alpha)
 
-调用 [Wolfram Alpha](https://www.wolframalpha.com/) 查询。
+在 Koishi 中使用 [Wolfram Alpha](https://www.wolframalpha.com/) 查询。
 
 你需要申请一个 Wolfram App 并配置 `appid` 以开启本功能。
 
