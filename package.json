@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-wolfram-alpha",
   "description": "Call Wolfram Alpha Query",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -10,7 +10,9 @@
   ],
   "author": "Shigma <shigma10826@gmail.com>",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc -b"
+  },
   "keywords": [
     "chatbot",
     "koishi",

@@ -45,7 +45,7 @@ export interface Config {
 }
 
 export const Config: Schema<Config> = Schema.object({
-  appid: Schema.string().required().description('Wolfram Alpha App ID'),
+  appid: Schema.string().role('secret').required().description('Wolfram Alpha App ID'),
 })
 
 export function apply(ctx: Context, config: Config) {
