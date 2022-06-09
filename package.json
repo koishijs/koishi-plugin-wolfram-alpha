@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-wolfram-alpha",
   "description": "Call Wolfram Alpha Query",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -26,10 +26,21 @@
     "koishi",
     "plugin"
   ],
+  "koishi": {
+    "description": {
+      "en": "Call [Wolfram Alpha](https://www.wolframalpha.com/) Query",
+      "zh": "使用 [Wolfram Alpha](https://www.wolframalpha.com/) 查询"
+    }
+  },
   "peerDependencies": {
-    "koishi": "^4.6.1"
+    "koishi": "^4.7.2"
   },
   "dependencies": {
     "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.36",
+    "koishi": "^4.7.2",
+    "typescript": "^4.7.2"
   }
 }
